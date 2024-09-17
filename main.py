@@ -42,10 +42,10 @@ headers = {
                 'Sec-Fetch-Site': 'cross-site',
             }
 
-OWNER = int(os.environ.get("OWNER", 7326397503))      #replace your user id 
+OWNER = int(os.environ.get("OWNER", 7433849282))      #replace your user id 
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "7326397503 5702090016").split()):     ##replace your user id  (for multiple userid use white space) e.g. "123456 987456" <<- two userid ka example haa yee 
+    for x in (os.environ.get("ADMINS", "7433849282").split()):     ##replace your user id  (for multiple userid use white space) e.g. "123456 987456" <<- two userid ka example haa yee 
         # jitni userid dalni ha usti daloo ...
         ADMINS.append(int(x)) 
 except ValueError: 
